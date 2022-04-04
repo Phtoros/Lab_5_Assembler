@@ -37,5 +37,5 @@ SECTION .data
 hexdigits: db '0123456789abcdef' ; цифры
 SECTiON .bss
 hexstr:
-RESB 4096/8+1 ; 4096 bits max
+RESB 4096/4+1 ; 4096 bits max
 .len: EQU $ - hexstr
